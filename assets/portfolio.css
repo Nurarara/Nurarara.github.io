@@ -16,3 +16,5 @@
 @media(max-width:700px){.hero{grid-template-columns:1fr;gap:36px;padding-top:30px}.hero h1{font-size:clamp(64px,18vw,100px);margin-bottom:24px;max-width:none}.hero__role{font-size:24px}.hero__description{font-size:18px}.hero__photos .portrait-main{height:330px}.hero__photos img{height:175px}.projects{display:grid;grid-template-columns:1fr;gap:42px}.projects .project:nth-child(n){margin:0}.projects-section{padding-top:40px}}
 
 .hero__photos .portrait-main{object-position:50% 25%}.hero__photos .portrait-fair{object-position:50% 25%}
+
+@media(min-width:1051px){.hero__photos .portrait-main{height:440px;object-position:50% 40%}}
